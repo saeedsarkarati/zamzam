@@ -8,13 +8,15 @@ class Tperson:
 		self.name = "w"
 		self.surname = "q"
 		self.idnum = "0441024376"
-class Twaterman(person):
+class Twaterman(Tperson):
 	def __init__(self):
 		self.account = 12
-class wellman(waterman):
+class Twellman(Twaterman):
 	def __init__(self):
 		self.well = None
 # ~ از نوع twell تعریف شده است.
-class 
-	
 
+def add(a: int) -> int:
+	return a + 5
+for _ in range(10):
+	print (9)
