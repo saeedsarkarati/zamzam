@@ -16,7 +16,4 @@ class Twellman(Twaterman):
 		self.well = None
 # ~ از نوع twell تعریف شده است.
 
-def add(a: int) -> int:
-	return a + 5
-for _ in range(10):
-	print (9)
+
