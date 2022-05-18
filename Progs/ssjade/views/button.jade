@@ -1,0 +1,13 @@
+style.
+	button{
+		background-color: lightblue;
+		border: none;
+		margin: 1vw;
+		padding: 0.4vw 1vw;
+	}
+	button:hover{background-color: lightgreen;}
+button(id="button-#{i}")= names[i]
+script.
+	document.getElementById(`button-#{i}`).addEventListener('click', () => {
+		document.getElementById('text').innerHTML  = document.getElementById(`button-#{i}`).innerHTML ;
+	})
